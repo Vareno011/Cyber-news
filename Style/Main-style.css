@@ -1,0 +1,120 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.Container{
+    /* background-color: aqua; */
+    width: 100%;
+}
+
+.Container .navbar{
+    background-color: #f7f7f700;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 5px 2px 6px #a5a5a5;
+    position: sticky;
+}
+
+.Container .navbar .left-side{
+    /* background-color: rgb(1, 1, 30); */
+    margin-left: 50px;
+}
+.Container .navbar .right-side{
+    display: flex;
+    align-items: center;
+    margin-right: 50px;
+} 
+
+.Container .navbar .middle{
+    /* background-color: beige; */
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.Container .navbar .middle .search-bar{
+    background-color: #e6e6e6;
+    padding: 6px;
+    border-radius: 5px;
+}
+.Container .navbar .middle .search-bar input{
+    border: solid;
+    border-color: rgba(255, 255, 255, 0);
+    background-color: #e6e6e6;
+}
+
+.Container .navbar .right-side .list-items{
+    list-style: none;
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px;
+}
+
+.Container .navbar .right-side .list-items li{
+    /* background-color: bisque; */
+    margin: 7px;
+    padding: 10px;
+    transition: all 0.4s;
+    border-radius: 10px;
+}
+
+.Container .navbar .right-side .list-items li:hover{
+    color: white;
+    /* background-color: darkcyan; */
+    cursor: pointer;
+}
+
+
+.documents{
+    background-color: #f3f3f3;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+.documents .document-card{
+    background-color: #ffffff;
+    width: 320px;
+    margin: 15px;
+}
+
+.documents .document-card .document-header{
+    /* background-color: aquamarine; */
+    border-radius: 10px;
+}
+.documents .document-card .document-body{
+    padding: 10px;
+}
+
+.documents .document-card .document-body .description{
+    /* background-color: aquamarine; */
+    padding: 3px;
+}
+
+.documents .document-card .document-body .btns{
+    /* background-color: cadetblue; */
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding: 5px;
+}
+
+
+.documents .document-card .document-body .btns .section-icon{
+    display: flex;
+    padding: 3px;
+}
+.documents .document-card .document-body .btns .btn{
+    background-color: #048b0d;
+    border: solid #ffffff00;
+    padding: 4px;
+    color: #e6e6e6;
+    border-radius: 5px;
+}
